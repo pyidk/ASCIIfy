@@ -1,4 +1,4 @@
-# ASSCIfy
+# ASCIIfy
 
 This is a small project which the program takes an image as an input and converts it into ASCII art.
 
