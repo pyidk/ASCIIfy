@@ -15,9 +15,9 @@ python -m pip install -r requirements.txt
 After the installation is complete, you can use this project to convert an image into ASCII art. In order to do so, simply write the following bit of code:
 
 ```python
-from ascii_art import ASCIIArt
+from asciify import ASCIIfy
 
-image = ASCIIArt("path/to/image.png", path_to_font="path/to/font.ttf", font_size=10)
+image = ASCIIfy("path/to/image.png", path_to_font="path/to/font.ttf", font_size=10)
 image.show()  # To directly show image
 # or
 image.save("path/to/file.png", format='PNG')  # to save image to a specific directory
